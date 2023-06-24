@@ -1,0 +1,45 @@
+package Encapsulation;
+import java.util.Scanner;
+  class student{
+    int age ;
+    String name;
+    char grade;
+    double perncentage;
+    int rank;
+    int roll;
+    String gmail;
+     public void show(){
+        System.out.println("name :- " + name);
+        System.out.println("age is :- " + age + "  years ");
+        System.out.println("grade :- " + grade );
+        System.out.println("perncentage  :- " + perncentage + " % ");
+        System.out.println(" rank is :- " + rank );
+        System.out.println( " roll no :- " + roll );
+        System.out.println( " gmail :- " + gmail);
+     }
+        }
+
+        public class part1{
+            public static void main(String[] args) {
+               student harsh = new student();
+                Scanner obj = new Scanner(System.in);
+                System.out.println("enter name");
+                String name = obj.next();
+                System.out.println("enter age");
+                int age = obj.nextInt();
+                System.out.println("enter grade");
+                char grade = obj.next().charAt(0);
+                System.out.println("enter percentage" );
+                double percentage = obj.nextDouble();
+                System.out.println("enter rank ");
+                int rank = obj.nextInt();
+                System.out.println("enter roll number");
+                int roll = obj.nextInt();
+                System.out.println("enter gmail");
+                String gmail = obj.next();
+                
+    yogesh.show();
+        
+        }
+
+        }
